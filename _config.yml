@@ -30,7 +30,8 @@ url: https://jalynneyoon.github.io/
 github_username:  jalynneyoon
 
 # Build settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyllcategory
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
 
