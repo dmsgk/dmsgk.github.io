@@ -1,12 +1,11 @@
 ---
-layout: post
+layout: single
 title:  "[Swift] weak/unowned self는 언제 사용해야 할까?"
 date:   2022-02-04 23:30:51 -0700
 categories: jekyll update
 ---
 
 ## [Swift] weak/unowned self는 언제 사용해야 할까?
-[Swift] weak,unowned self는 언제 사용해야 할까?
 ARC에서 발생할 수 있는 Strong Reference Cycle로 인한 메모리 누수를 방지하기 위해 `weak self` 또는`unowned self` 를 사용하게 됩니다. 주로 클로저에서 weak self를 사용하고는 하는데 모든 클로저에 weak self를 사용해야 하는지, 그렇지 않다면 어떤 부분에 weak self를 사용해야 하는지 알아보고자 찾아본 내용을 정리하고자 글을 쓰게 되었습니다.
 
 ### Escaping, non escaping closure 여부
