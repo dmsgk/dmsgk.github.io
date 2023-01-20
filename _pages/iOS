@@ -1,0 +1,9 @@
+---
+title: "iOS 카테고리"
+permalink: /ios
+layout: single
+---
+
+
+{% assign posts = site.ios %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
