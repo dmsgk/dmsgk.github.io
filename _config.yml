@@ -33,7 +33,7 @@ comments:
   provider: "utterances"
   uttrances:
     theme: "github-light"
-    issue-term: "pathname"
+    issue-term: "url""
 
 
 # Build settings
