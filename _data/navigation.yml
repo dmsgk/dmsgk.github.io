@@ -20,7 +20,7 @@ sidebar-category:
 
   - title: "개발환경, 팁"
     url: "/CategoryB" 
-  - title: "Algorithms"
-    url: "/CategoryB"   
+  - title: "Algorithm"
+    url: "/algorithm"   
   - title: "후기, 회고"
-    url: "/CategoryB" 
+    url: "/review"

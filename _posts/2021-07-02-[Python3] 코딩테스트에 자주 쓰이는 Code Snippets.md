@@ -1,6 +1,7 @@
 ---
 title:  "[Python3] 코딩테스트에 자주 쓰이는 Code Snippets"
 date:   2021-07-02 11:11:51 +0900
+categories: algorithm
 ---
 
 

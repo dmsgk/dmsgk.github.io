@@ -27,13 +27,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://jalynneyoon.github.io/
 github_username:  jalynneyoon
+permalink: /:categories/:title/
 repository: "jalynneyoon/jalynneyoon.github.io"
 # Comments
 comments: 
   provider: "utterances"
   uttrances:
     theme: "github-light"
-    issue-term: "url""
+    issue-term: "url"
 
 
 # Build settings
@@ -59,20 +60,34 @@ defaults:
       related: true
       sidebar:
         nav: "sidebar-category"
+   # _pages
+  - scope:
+      path: ""
+      target: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "sidebar-category"
 
 # Analytics
 analytics:
-  provider               : "google-gtag" 
+  provider: "google-gtag" 
                           # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-QH32EKZF2M"
-    anonymize_ip         : # true, false (default)
+    tracking_id: "G-QH32EKZF2M"
+    anonymize_ip: # true, false (default)
 
 
 # Reading Files
 include:
   - .htaccess
-  - _pages
+  - ["ios", "configuration", "framework", "swift", "view-programming", "algorithm", "review"]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

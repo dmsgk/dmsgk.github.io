@@ -1,4 +1,8 @@
-## [Swift] @available(*, unavailable) 사용하기
+---
+title:  "[Swift] @available(*, unavailable) 사용하기"
+date:   2022-02-21 10:30:51 +0900
+categories: ios swift
+---
 
 [10 little UIKit tips you should know](https://theswiftdev.com/10-little-uikit-tips-you-should-know/?utm_source=swiftlee&utm_medium=swiftlee_weekly&utm_campaign=issue_101) 라는 글을 읽다가 `@available(*, unavailable) ` 를 사용하는 코드를 여럿 보게 되었습니다. 왜 이걸 썼지? 했었는데 글 쓰신 분이 다음과 같이 남기셨습니다.
 

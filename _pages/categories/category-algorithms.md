@@ -1,8 +1,5 @@
 ---
 title: "Algorithms 카테고리"
 permalink: /algorithms
-
+layout: categories
 ---
-
-{% assign posts = site.categories.algorithms %}
-{% for post in posts %} {% type=page.home %} {% endfor %}

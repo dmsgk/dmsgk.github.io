@@ -1,6 +1,7 @@
 ---
 title:  "Dijkstra's Algorithm 이해하기"
 date:   2021-07-16 11:36:51 +0900
+categories: algorithm
 ---
 
 ## Dijkstra's Algorithm 개념

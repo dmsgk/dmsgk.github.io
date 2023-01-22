@@ -1,6 +1,7 @@
 ---
 title:  "[Swift] weak/unowned self는 언제 사용해야 할까?"
 date:   2022-02-04 23:30:51 -0700
+categories: ios swift
 ---
 
 ## [Swift] weak/unowned self는 언제 사용해야 할까?
