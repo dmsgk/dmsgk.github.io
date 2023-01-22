@@ -52,6 +52,14 @@ defaults:
       sidebar:
         nav: "sidebar-category"
 
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-QH32EKZF2M"
+    anonymize_ip         : # true, false (default)
+
 # Reading Files
 include:
   - .htaccess
