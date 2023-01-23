@@ -1,8 +1,10 @@
 ---
-title: "iOS 카테고리"
+title: "iOS"
 permalink: /ios
-layout: archive
+layout: category
 ---
 
 {% assign posts = site.categories.ios %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+{% for post in posts %}
+{% include custom-archive-single.html type=entries_layout %}
+{% endfor %}

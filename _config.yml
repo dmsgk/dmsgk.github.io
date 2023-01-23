@@ -29,12 +29,20 @@ url: https://jalynneyoon.github.io/
 github_username:  jalynneyoon
 permalink: /:categories/:title/
 repository: "jalynneyoon/jalynneyoon.github.io"
+
+# Site Author
+author:
+  name: "jalynneyoon"
+  bio: "재미 주도 개발을 추구합니다."
+
 # Comments
 comments: 
   provider: "utterances"
   uttrances:
     theme: "github-light"
     issue-term: "url"
+
+
 
 
 # Build settings
