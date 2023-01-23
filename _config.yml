@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -31,12 +31,12 @@ permalink: /:categories/:title/
 repository: "jalynneyoon/jalynneyoon.github.io"
 
 # Site Author
-author:
-  name: "jalynneyoon"
-  bio: "재미 주도 개발을 추구합니다."
+# author:
+#   name: "jalynneyoon"
+#   bio: "재미 주도 개발을 추구합니다."
 
 # Comments
-comments: 
+comments:
   provider: "utterances"
   uttrances:
     theme: "github-light"
@@ -85,7 +85,7 @@ defaults:
 
 # Analytics
 analytics:
-  provider: "google-gtag" 
+  provider: "google-gtag"
                           # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id: "G-QH32EKZF2M"
@@ -95,7 +95,7 @@ analytics:
 # Reading Files
 include:
   - .htaccess
-  - ["ios", "configuration", "framework", "swift", "view-programming", "algorithm", "review"]
+  - ["categories", "ios", "configuration", "framework", "swift", "view-programming", "algorithm", "review"]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

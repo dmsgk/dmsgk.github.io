@@ -1,5 +1,5 @@
 ---
 title: "iOS / View Programming "
-permalink: /ios/view-programming
-layout: categories
+permalink: /categories/ios/view-programming
+layout: category
 ---
