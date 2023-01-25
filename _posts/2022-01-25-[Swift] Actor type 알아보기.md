@@ -1,11 +1,9 @@
 ---
-title: [Swift] Actor type 알아보기
+title: "[Swift] Actor type 알아보기"
 date: 2022-01-25 23:45:51 +0900
 categories: ios swift
 
 ---
-
-
 
 ## Intro. 동시성 프로그래밍을 하면서의 어려움 - 경쟁상태의 발생
 
