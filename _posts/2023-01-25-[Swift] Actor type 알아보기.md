@@ -5,6 +5,8 @@ categories: ios swift
 
 ---
 
+​	
+
 ## Intro. 동시성 프로그래밍을 하면서의 어려움 - 경쟁상태의 발생
 
 두 스레드가 동일한 데이터에 접근할 때 하나 이상이 쓰기 연산을 실행하면 data race 가 발생할 수 있다.
@@ -73,12 +75,12 @@ struct Counter {
 let counter = Counter()
 
 Task.detached {
-		var counter = counter // local에서 var로 선언
+    var counter = counter // local에서 var로 선언
     counter.increase()
 }
 
 Task.detached {
-		var counter = counter 
+    var counter = counter 
     counter.increase()
 }
 ```
@@ -107,17 +109,11 @@ Task.detached {
 
 ### Actor type
 
-- Swift에는 
-
-  ```
-  Actor
-  ```
-
-   라는 새로운 타입이 생겼다. struct, enum, class와 유사하다.
+- Swift에는 `Actor` 라는 새로운 타입이 생겼다. struct, enum, class와 유사하다.
 
   - property, method, init, subscript 등을 가질 수 있다.
   - protocol을 따를 수도 있고, extension 도 가능하다.
-
+  
 - 참조 타입이다.
 
 - 데이터를 동기화하고 다른 프로그램과 분리하는 역할을 수행한다.
@@ -357,7 +353,7 @@ Task.detached {
 }
 
 Task.detached {
-		print(counter.increase()) // 컴파일 에러
+    print(counter.increase()) // 컴파일 에러
 }
 ```
 

@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://jalynneyoon.github.io/
 github_username:  jalynneyoon
-permalink: /:categories/:title/
+permalink: /:title/
 repository: "jalynneyoon/jalynneyoon.github.io"
 
 # Site Author
