@@ -156,6 +156,15 @@ pre {
   font-family: $monospace;
 }
 
+
+kbd {
+  background: $code-background-color;
+  
+  border-radius: $border-radius;
+  color : #C72542; // 이 부분을 추가해준다.
+
+}
+
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
 }
