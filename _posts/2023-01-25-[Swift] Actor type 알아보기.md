@@ -204,27 +204,27 @@ actor의 동기화 메커니즘은 하나의 작업만 캐시 인스턴스프로
 
 - 쉽게 그림으로 보기
 
-  ![스크린샷 2023-01-24 오후 7.39.18](assets/스크린샷 2023-01-24 오후 7.39.18.png)
+  ![스크린샷 2023-01-24 오후 7.39.18](https://raw.githubusercontent.com/jalynneyoon/jalynneyoon.github.io/main/_posts/assets/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-01-24%20%EC%98%A4%ED%9B%84%207.39.18.png)
 
-  동시성 태스크가 있다고 가정![스크린샷 2023-01-24 오후 7.40.22](assets/스크린샷 2023-01-24 오후 7.40.22.png)
+  동시성 태스크가 있다고 가정![스크린샷 2023-01-24 오후 7.40.22](https://raw.githubusercontent.com/jalynneyoon/jalynneyoon.github.io/main/_posts/assets/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-01-24%20%EC%98%A4%ED%9B%84%207.40.22.png)
 
   suspended 되어 있는 동안 서버에서 해당 url에 새로운 이미지를 배포했다고 가정하자.
 
-  ![스크린샷 2023-01-24 오후 7.41.38.png](assets/스크린샷 2023-01-24 오후 7.40.42.png)
+  ![스크린샷 2023-01-24 오후 7.41.38.png](https://raw.githubusercontent.com/jalynneyoon/jalynneyoon.github.io/main/_posts/assets/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-01-24%20%EC%98%A4%ED%9B%84%207.41.38.png)
 
   이미지 캐시 확인 후, 아직 task1이 끝나지 않은 상태라 없으므로 suspended 된다.
 
-  ![스크린샷 2023-01-24 오후 7.42.44.png](assets/스크린샷 2023-01-24 오후 7.41.38.png)
+  ![스크린샷 2023-01-24 오후 7.42.44.png](../_posts/assets/스크린샷 2023-01-24 오후 7.41.38.png)
 
-  ![스크린샷 2023-01-24 오후 7.43.10.png](assets/스크린샷 2023-01-24 오후 7.42.44.png)
+  ![스크린샷 2023-01-24 오후 7.43.10.png](https://raw.githubusercontent.com/jalynneyoon/jalynneyoon.github.io/main/_posts/assets/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-01-24%20%EC%98%A4%ED%9B%84%207.42.44.png)
 
   둘 중에 하나가 끝났으면, - task1이라 가정 - 끝나고 작업을 계속한다.
 
-  ![스크린샷 2023-01-24 오후 7.44.18](assets/스크린샷 2023-01-24 오후 7.44.18.png)
+  ![스크린샷 2023-01-24 오후 7.44.18](https://github.com/jalynneyoon/jalynneyoon.github.io/blob/main/_posts/assets/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-01-24%20%EC%98%A4%ED%9B%84%207.44.18.png?raw=true)
 
   cache를 populate 하고
 
-  ![스크린샷 2023-01-24 오후 7.45.07.png](assets/스크린샷 2023-01-24 오후 7.45.07.png)
+  ![스크린샷 2023-01-24 오후 7.45.07.png](https://raw.githubusercontent.com/jalynneyoon/jalynneyoon.github.io/main/_posts/assets/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-01-24%20%EC%98%A4%ED%9B%84%207.45.07.png)
 
   다른 작업이 끝나면 캐시 값을 덮어쓴다.
 
