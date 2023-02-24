@@ -214,9 +214,7 @@ actor의 동기화 메커니즘은 하나의 작업만 캐시 인스턴스프로
 
   이미지 캐시 확인 후, 아직 task1이 끝나지 않은 상태라 없으므로 suspended 된다.
 
-  ![스크린샷 2023-01-24 오후 7.42.44.png](../_posts/assets/스크린샷 2023-01-24 오후 7.41.38.png)
-
-  ![스크린샷 2023-01-24 오후 7.43.10.png](https://raw.githubusercontent.com/jalynneyoon/jalynneyoon.github.io/main/_posts/assets/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-01-24%20%EC%98%A4%ED%9B%84%207.42.44.png)
+  ![스크린샷 2023-01-24 오후 7.42.44.png](https://raw.githubusercontent.com/jalynneyoon/jalynneyoon.github.io/main/_posts/assets/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-01-24%20%EC%98%A4%ED%9B%84%207.42.44.png)
 
   둘 중에 하나가 끝났으면, - task1이라 가정 - 끝나고 작업을 계속한다.
 
