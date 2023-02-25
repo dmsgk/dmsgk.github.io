@@ -59,6 +59,9 @@ defaults:
       path: ""
       target: posts
     values:
+      toc: true
+      toc_sticky: true
+
       layout: single
       author_profile: true
       read_time: true
