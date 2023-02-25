@@ -1,7 +1,7 @@
 ---
 title:  "[UIKit] Storyboard 탈출기 (3편) - Then 라이브러리를 사용해보자"
 date:   2021-11-03 10:30:51 +0900
-categories: ios view-programming
+categories: iOS view-programming
 ---
 
 

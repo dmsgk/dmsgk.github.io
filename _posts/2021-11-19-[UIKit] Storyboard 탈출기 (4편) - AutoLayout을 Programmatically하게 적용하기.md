@@ -1,7 +1,7 @@
 ---
 title:  "[UIKit] Storyboard 탈출기 (4편) - AutoLayout을 Programmatically하게 적용하기"
 date:   2021-11-19 10:30:51 +0900
-categories: ios view-programming
+categories: iOS view-programming
 ---
 
 

@@ -98,7 +98,7 @@ analytics:
 # Reading Files
 include:
   - .htaccess
-  - ["categories", "ios", "configuration", "framework", "swift", "view-programming", "algorithm", "review"]
+  # - ["categories", "ios", "configuration", "framework", "swift", "view-programming", "algorithm", "review"]
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -129,6 +129,24 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # Conversion
 markdown: kramdown

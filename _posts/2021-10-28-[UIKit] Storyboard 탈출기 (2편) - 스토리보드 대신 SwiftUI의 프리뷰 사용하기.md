@@ -1,7 +1,7 @@
 ---
 title:  "[UIKit] Storyboard 탈출기 (2편) - 스토리보드 대신 SwiftUI의 프리뷰 사용하기"
 date:   2021-10-28 10:30:51 +0900
-categories: ios view-programming
+categories: iOS view-programming
 ---
 
 

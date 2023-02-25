@@ -1,7 +1,9 @@
 ---
 title: "[Swift] Actor type 알아보기"
 date: 2023-01-25 23:45:51 +0900
-categories: ios swift
+categories: 
+    - iOS 
+    - Swift
 
 ---
 

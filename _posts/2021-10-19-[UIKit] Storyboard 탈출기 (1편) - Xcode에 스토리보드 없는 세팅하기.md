@@ -1,7 +1,7 @@
 ---
 title:  "[UIKit] Storyboard 탈출기 (1편) - Xcode에 스토리보드 없는 세팅하기"
 date:   2021-10-19 23:30:51 +0900
-categories: ios view-programming
+categories: iOS view-programming
 ---
 
 

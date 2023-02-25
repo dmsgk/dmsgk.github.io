@@ -1,7 +1,7 @@
 ---
 title:  "[UIView] isExclusiveTouch로 중복터치를 막아보자"
 date:   2022-08-08 10:30:51 +0900
-categories: ios view-programming
+categories: iOS view-programming
 ---
 
 

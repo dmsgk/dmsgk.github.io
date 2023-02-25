@@ -1,7 +1,9 @@
 ---
 title:  "[Swift] 메모리 참조, ARC, Strong Reference Cycle 이해하기"
 date:   2021-09-01 11:11:51 +0900
-categories: ios swift
+categories:
+    - iOS 
+    - Swift
 ---
 
 

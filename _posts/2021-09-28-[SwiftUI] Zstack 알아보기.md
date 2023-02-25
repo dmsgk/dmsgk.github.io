@@ -1,7 +1,7 @@
 ---
 title:  "[SwiftUI] Zstack 알아보기"
 date:   2021-09-28 10:30:51 +0900
-categories: ios view-programming
+categories: iOS view-programming
 ---
 
 

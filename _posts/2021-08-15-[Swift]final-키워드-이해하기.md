@@ -1,7 +1,9 @@
 ---
 title:  "[Swift] final 키워드 이해하기"
 date:   2021-08-15 11:11:51 +0900
-categories: ios swift
+categories: 
+    - iOS 
+    - Swift
 ---
 
 

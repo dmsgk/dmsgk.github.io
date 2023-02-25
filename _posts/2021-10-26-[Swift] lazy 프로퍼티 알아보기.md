@@ -1,7 +1,9 @@
 ---
 title:  "[Swift] lazy 프로퍼티 알아보기"
 date:   2021-10-26 11:11:51 +0900
-categories: ios swift
+categories: 
+    - iOS 
+    - Swift
 
 ---
 

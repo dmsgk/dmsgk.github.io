@@ -1,7 +1,9 @@
 ---
 title:  "[Swift] DispatchQueue의 qos 사용하기"
 date:   2021-11-15 10:30:51 +0900
-categories: ios swift
+categories: 
+    - iOS 
+    - Swift
 ---
 
 GCD에서 global큐나 커스텀 큐를 사용할 때 `qos(quality of service)`를 사용해 작업의 중요도를 결정할 수 있습니다. 그렇기 때문에 작업의 우선순위를 결정하기 위해서는 qos의 우선순위가 어떻게 되는지 알고 어떤 때 사용하는지 구체적으로 생각해두고자 이번 글에서 이것저것 보면서 정리해두고자 합니다. 

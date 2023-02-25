@@ -1,7 +1,7 @@
 ---
 title:  "[Swift][SwiftUI] PropertyWrapper의 개념, @State, @Binding"
 date:   2022-11-12 10:30:51 +0900
-categories: ios view-programming
+categories: iOS view-programming
 
 
 ---
