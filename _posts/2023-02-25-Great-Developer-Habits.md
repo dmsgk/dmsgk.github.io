@@ -6,7 +6,7 @@ date: 2023-02-25 04:40:39 +0000
 last_modified_at: 2023-02-25 04:40:39 +0000
 ---
 
-[](https://developer.apple.com/videos/play/wwdc2019/239/)
+[WWDC19의 Great Developer Habits](https://developer.apple.com/videos/play/wwdc2019/239/) 를 보고 정리한 글입니다. 
 
 
 > 🍏 Hidden details matter
