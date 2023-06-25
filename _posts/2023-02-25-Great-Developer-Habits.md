@@ -1,7 +1,7 @@
 ---
 title: "Great Developer Habits"
 subtitle: "좋은 개발을 하기 위한 습관과 iOS 개발의 소소한 팁을 알아보자"
-categories: iOS
+categories: iOS etc
 date: 2023-02-25 04:40:39 +0000
 last_modified_at: 2023-02-25 04:40:39 +0000
 ---

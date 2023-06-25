@@ -1,7 +1,7 @@
 ---
 title:  "[RxSwift] Observable, Observer, Subject, Disposing 개념"
 date:   2021-12-29 10:30:51 +0900
-categories: iOS framework
+categories: iOS reactive-programming
 ---
 
 
