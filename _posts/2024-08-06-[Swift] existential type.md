@@ -59,7 +59,7 @@ existential type 은 이와 같이 protocol이 타입으로써 사용될 때, �
 
 Swift 5.7 부터는 이를 구분하기 위해 existential type 에는 `any` 키워드를 붙여서 구분이 가능하게끔 컴파일러가 강제한다.
 
-any 키워드를 사용 시의 장점: type-safety
+#### `any` 키워드를 사용 시의 장점: type-safety
 
 [What's the 'any' keyword? Understanding Type Erasure in Swift](https://swiftrocks.com/whats-any-understanding-type-erasure-in-swift)
 
@@ -116,9 +116,9 @@ func feedAll(_ animals: [AnyAnimal], provider: FoodProvider) {
 }
 ```
 
-이렇게 하면 해결이 가능하지만, 여기에는 문제가 있다. FoodProvider 에서 제공하는 food 타입이 Animal 에서 제공하는 Food 타입으로 캐스팅이 되지 않는다면? 크래시가 발생한다. (근데 그런 상황이 발생할 수가 있나?)
+이렇게 하면 해결이 가능하지만, 여기에는 문제가 있다. FoodProvider 에서 제공하는 food 타입이 Animal 에서 제공하는 Food 타입으로 캐스팅이 되지 않는다면? 크래시가 발생한다. 
 
-지선생님의 도움을 받았다.
+크래시가 발생하는 상황을 만들어보자. 
 
 ```swift
 struct DogFood {
@@ -163,7 +163,7 @@ feedAll(animals, provider: provider)  // 여기서 크래시 발생
 
 이런 경우 컴파일러는 알 수가 없다.
 
-5.7 이후로 any 를 사용하여 다음과 같이 사용하면, 컴파일러가 for 문을 돌 때마다 각자의 concrete type 에 맞는 값을 얻을 수 있게 되어 컴파일 단에서 타입안정성을 얻을 수 있다.
+5.7 이후로 `any` 를 사용하여 다음과 같이 사용하면, 컴파일러가 for 문을 돌 때마다 각자의 concrete type 에 맞는 값을 얻을 수 있게 되어 컴파일 단에서 타입안정성을 얻을 수 있다.
 
 ```swift
 func feedAll(_ animals: [any Animal], provider: FoodProvider) {
