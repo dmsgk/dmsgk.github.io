@@ -15,19 +15,19 @@ protocol 선언 후 채택하여 함수를 사용한다고 생각해 보자.
 
 ```swift
 protocol Testable {
-		func test()
+    func test()
 }
 
 struct A: Testable {
-		func test() {
-				print("A Test")
-		}
+    func test() {
+        print("A Test")
+    }
 }
 
 struct B: Testable {
-		func test() {
-				// 테스트
-		}
+    func test() {
+        // 테스트
+    }
 }
 ```
 
@@ -36,12 +36,12 @@ struct B: Testable {
 ```swift
 // generic 활용
 func test<T: Testable>(with test: T) {
-		test.test()
+    test.test()
 }
 
 // existential type 을 활용
 func test(with test: any Testable) { 
-		test.test()
+    test.test()
 }
 
 var test: any Testable = A()
